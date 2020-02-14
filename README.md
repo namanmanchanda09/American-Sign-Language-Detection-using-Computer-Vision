@@ -12,7 +12,5 @@ Although Parkinson's disease can't be cured, medications might significantly imp
 * **Tremors:** A tremor, or shaking, usually begins in a limb, often your hand or fingers. 
 * **Slowed movement:** Over time, Parkinson's disease may slow your movement, making simple tasks difficult and time-consuming. Your steps may become shorter when you walk. It may be difficult to get out of a chair. You may drag your feet as you try to walk.
 * **Rigid muscles:** Muscle stiffness may occur in any part of your body. The stiff muscles can be painful and limit your range of motion.
-* **Impaired posture and balance:** Your posture may become stooped, or you may have balance problems as a result of Parkinson's disease.
-* **Loss of automatic movements:** You may have a decreased ability to perform unconscious movements, including blinking, smiling or swinging your arms when you walk.
-* **Speech changes:** You may speak softly, quickly, slur or hesitate before talking. Your speech may be more of a monotone rather than with the usual inflections.
 * **Writing changes:** It may become hard to write, and your writing may appear small.
+
