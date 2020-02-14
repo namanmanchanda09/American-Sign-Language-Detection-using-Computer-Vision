@@ -14,3 +14,12 @@ Although Parkinson's disease can't be cured, medications might significantly imp
 * **Rigid muscles:** Muscle stiffness may occur in any part of your body. The stiff muscles can be painful and limit your range of motion.
 * **Writing changes:** It may become hard to write, and your writing may appear small.
 
+### Solution
+
+A 2017 study found that Parkinson's can be detected using
+* Speed of Drawing
+* Pen Pressure
+
+We’ll be leveraging the fact that two of the most common Parkinson’s symptoms include tremors and muscle rigidity which directly impact the visual appearance of a hand drawn spiral and wave.
+
+
