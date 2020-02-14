@@ -20,6 +20,9 @@ A 2017 study found that Parkinson's can be detected using
 * Speed of Drawing
 * Pen Pressure
 
+![detect_parkinsons_dataset](https://user-images.githubusercontent.com/35381035/74562597-2fdbaf00-4f91-11ea-9ced-25042ac0b9da.jpg)
+
+
 We’ll be leveraging the fact that two of the most common Parkinson’s symptoms include tremors and muscle rigidity which directly impact the visual appearance of a hand drawn spiral and wave. The variation in visual appearance will enable us to train a computer vision + deep learning algorithm to automatically detect Parkinson’s disease.
 
 
