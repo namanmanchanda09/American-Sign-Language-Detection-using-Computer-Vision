@@ -1,7 +1,7 @@
 # Hack36_Project_Team MISFITS
 Hack36 MNNIT Allahabad Hackathon Submission.
-# Parkinson's Disease Recognition
-Parkinson's disease is a progressive nervous system disorder that affects movement. Symptoms start gradually, sometimes starting with a barely noticeable tremor in just one hand. Tremors are common, but the disorder also commonly causes stiffness or slowing of movement.
+# American Sign Language Detection using Deep Neural Networks
+American Sign Language (ASL) is a visual language. With signing, the brain processes linguistic information through the eyes. The shape, placement, and movement of the hands, as well as facial expressions and body movements, all play important parts in conveying information.
 
 In the early stages of Parkinson's disease, your face may show little or no expression. Your arms may not swing when you walk. Your speech may become soft or slurred. Parkinson's disease symptoms worsen as your condition progresses over time.
 
