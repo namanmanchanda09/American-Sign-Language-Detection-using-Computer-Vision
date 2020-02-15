@@ -9,6 +9,7 @@ import collections
 import win32com.client as winc1
 
 
+
 v = winc1.Dispatch("SAPI.SpVoice")
 
 # Loading the model
@@ -18,11 +19,11 @@ model = load_model('hack36_2.h5')
 def max_char(text):
     return collections.Counter(text).most_common(1)[0][0]
 
+# Don't touch this cell
+
 video = cv2.VideoCapture(0)
-msg = ''
 text=''
-# msg = ''
-flag=''
+flag=[]
 frame_count = 0
 while True:
         _, frame = video.read()
@@ -30,7 +31,7 @@ while True:
         
         frame_count += 1
         
-        if frame_count%50 == 0:
+        if frame_count%150 == 0:
             
             im = Image.fromarray(frame, 'RGB')
 
@@ -47,7 +48,7 @@ while True:
             prediction = model.predict(img_final)
 
             label = np.argmax(prediction)
-
+            
             if label == 0:
                 ch = 'A'
             elif label == 1:
@@ -101,27 +102,51 @@ while True:
             elif label == 25:
                 ch = 'Z'
                                 
-            elif label == 26:     # Delete
-                m = max_char(text)
-                flag = flag + m
-                text = ''
+            elif label == 26:
+#                 m = max_char(text)
+#                 text=m
+#                 flag=flag+text
+#                 text=''
+                                  # Delete
+                ch=''
+#                 text = ''
+                
                                 
-            elif label == 27:     # Nothing
+            elif label == 27:#Nothing
+#                 m = max_char(text)
+#                 flag = flag + m
                 ch=''
                 
+                
             elif label == 28:     # Space
-                flag = flag + ' '
-                ch = ''
+                
+                ch = ' '
+                print('space')
         
-            text += ch
+            flag.append(ch)
             print(ch)
+            
+        
 
         cv2.imshow("Capturing", frame)
         key=cv2.waitKey(1)
         if key == ord('q'):
             break
-print(text)
+
+text=''
+for i in flag:
+    text+=i
+
+# for i in range(len(flag)):
+#     if (i==0 and flag[i] == '*'):
+#         continue
+#     elif(flag[i]=='*'):
+#         text=text+flag[i-1]
+        
+
 video.release()
 cv2.destroyAllWindows()
 
+
+print(text)
 v.Speak(text)
