@@ -10,4 +10,7 @@ Fingerspelling is part of ASL and is used to spell out English words. In the fin
 The message will then be converted from text to speech using Python's built-in support.
 The input will be provided in real time using the webcam.
 
+## Data Source
+https://www.kaggle.com/grassknoted/asl-alphabet
+
 
