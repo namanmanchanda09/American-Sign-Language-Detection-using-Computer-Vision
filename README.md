@@ -13,6 +13,9 @@ The input will be provided in real time using the webcam.
 ## Data Source
 https://www.kaggle.com/grassknoted/asl-alphabet
 
+## Project Demo
+https://www.youtube.com/watch?v=mIyWNsGfHAQ
+
 ### Prediction of Alphabet A
 
 ![WhatsApp Image 2020-02-16 at 6 15 27 AM](https://user-images.githubusercontent.com/35381035/74597347-064f8000-5084-11ea-9873-284635181e3c.jpeg)
