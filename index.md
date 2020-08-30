@@ -1,4 +1,4 @@
-# Hack36_Project_Team MISFITS
+# Hack36 Project Team MISFITS
 Hack36 MNNIT Allahabad Hackathon Submission
 # American Sign Language Detection using Deep Neural Networks
 American Sign Language (ASL) is a visual language. With signing, the brain processes linguistic information through the eyes. The shape, placement, and movement of the hands, as well as facial expressions and body movements, all play important parts in conveying information. It is the primary language of many North Americans who are deaf and hard of hearing, and is used by many hearing people as well. The project can be used by dumb people to easily communicate with people who doesn't understand sign language.
