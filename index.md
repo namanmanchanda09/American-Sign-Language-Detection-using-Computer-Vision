@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Hack36_Project_Team MISFITS
+Hack36 MNNIT Allahabad Hackathon Submission
+# American Sign Language Detection using Deep Neural Networks
+American Sign Language (ASL) is a visual language. With signing, the brain processes linguistic information through the eyes. The shape, placement, and movement of the hands, as well as facial expressions and body movements, all play important parts in conveying information. It is the primary language of many North Americans who are deaf and hard of hearing, and is used by many hearing people as well. The project can be used by dumb people to easily communicate with people who doesn't understand sign language.
+![ASL](https://user-images.githubusercontent.com/35381035/74564913-1e48d600-4f96-11ea-86fa-4e854ec77975.jpg)
 
-You can use the [editor on GitHub](https://github.com/namanmanchanda09/American-Sign-Language-Detection-using-Computer-Vision/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Formation of message using finger spelling in ASL
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Fingerspelling is part of ASL and is used to spell out English words. In the fingerspelled alphabet, each letter corresponds to a distinct handshape. Fingerspelling is often used for proper names or to indicate the English word for something. We are using **Convolutional Neural Networks** to predict the sign language letter and combine those predicted letters to form the sentence to be conveyed.
+The message will then be converted from text to speech using Python's built-in support.
+The input will be provided in real time using the webcam.
 
-### Markdown
+## Data Source
+https://www.kaggle.com/grassknoted/asl-alphabet
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Project Demo
+https://www.youtube.com/watch?v=mIyWNsGfHAQ
 
-```markdown
-Syntax highlighted code block
+### Prediction of Alphabet A
 
-# Header 1
-## Header 2
-### Header 3
+![WhatsApp Image 2020-02-16 at 6 15 27 AM](https://user-images.githubusercontent.com/35381035/74597347-064f8000-5084-11ea-9873-284635181e3c.jpeg)
 
-- Bulleted
-- List
+### Prediction of Alphabet L
 
-1. Numbered
-2. List
+![WhatsApp Image 2020-02-16 at 6 14 19 AM](https://user-images.githubusercontent.com/35381035/74597364-4878c180-5084-11ea-8125-607075f8dd57.jpeg)
 
-**Bold** and _Italic_ and `Code` text
+### Final Message
 
-[Link](url) and ![Image](src)
-```
+![WhatsApp Image 2020-02-16 at 6 13 45 AM](https://user-images.githubusercontent.com/35381035/74597368-5a5a6480-5084-11ea-8164-ccb37b95a272.jpeg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/namanmanchanda09/American-Sign-Language-Detection-using-Computer-Vision/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
